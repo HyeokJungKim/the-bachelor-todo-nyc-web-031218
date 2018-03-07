@@ -7,9 +7,6 @@ def get_first_name_of_season_winner(data, season)
     if contestant["status"] == "Winner"
       return contestant["name"].split(" ")[0]
     end
-    if contestant["status"] == "winner"
-      return contestant["name"]
-    end
   end
 end
 
